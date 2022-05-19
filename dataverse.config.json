@@ -1,0 +1,18 @@
+{
+    "connection": {
+        "server": "https://orgef2e132c.crm.dynamics.com/",
+        "solution": "JTCustomizations",
+        "tenant": "journeyteam.onmicrosoft.com"
+    },
+    "entries": {
+        "AccountRibbon": "./src/scripts/AccountRibbon.ts"
+    },
+    "webResources": [
+        {
+            "path": "./lib/AccountRibbon.js",
+            "name": "jt_/scripts/account.js",
+            "displayname": "JT - Account Ribbon",
+            "type": "JavaScript"
+        }
+    ]
+}
