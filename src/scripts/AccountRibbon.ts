@@ -8,7 +8,7 @@ export async function Confirm(formContext: Xrm.FormContext){
         text : `${id}: ${name}`,
         title: "Confirm"
     };
-    var result = await Xrm.Navigation.openConfirmDialog(confirmStrings);
+    let result = await Xrm.Navigation.openConfirmDialog(confirmStrings);
     if(result.confirmed){
         alert("confirmed");
     }
