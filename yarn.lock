@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"-@^0.0.1":
-  "integrity" "sha512-3HfneK3DGAm05fpyj20sT3apkNcvPpCuccOThOPdzz8sY7GgQGe0l93XH9bt+YzibcTIgUAIMoyVJI740RtgyQ=="
-  "resolved" "https://registry.npmjs.org/-/-/--0.0.1.tgz"
-  "version" "0.0.1"
-
 "@ampproject/remapping@^2.1.0":
   "integrity" "sha512-qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w=="
   "resolved" "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.0.tgz"
@@ -2135,25 +2130,25 @@
   "resolved" "https://registry.npmjs.org/cryptr/-/cryptr-6.0.3.tgz"
   "version" "6.0.3"
 
-"dataverse-utils@^2.2.6":
-  "integrity" "sha512-koSx2QKskZ4YkQbloY+474/Edh3XmRWUAw/HO0WMXNxaBxEeGX9VuDtct4Lf/wGRynrKfkO4yAaJicLi8OdMAA=="
-  "resolved" "https://registry.npmjs.org/dataverse-utils/-/dataverse-utils-2.2.6.tgz"
-  "version" "2.2.6"
+"dataverse-utils@^2.2.7":
+  "integrity" "sha512-PeMFIKLbI8CEwfxcBcUG5Y+WiniCtsbCUmi/OB3J+jNjiEdQ1TJ/KmdpJGNh4pGq21dmlobopWvFJ4s6fkH0YQ=="
+  "resolved" "https://registry.npmjs.org/dataverse-utils/-/dataverse-utils-2.2.7.tgz"
+  "version" "2.2.7"
   dependencies:
     "@azure/msal-node" "^1.3.1"
     "commander" "^8.3.0"
     "cryptr" "^6.0.2"
-    "dataverse-webapi" "^2.0.4"
+    "dataverse-webapi" "^2.0.5"
     "envinfo" "^7.8.1"
     "figures" "^3.2.0"
     "glob" "^7.2.0"
     "kleur" "^4.1.4"
     "prompts" "^2.4.2"
 
-"dataverse-webapi@^2.0.4":
-  "integrity" "sha512-5z0l7RSLZcop+kzFbdAzFBEzfX+sRjEuNUu6o0AmKRJ7kuA3s73D3KeQ84MtltQ7sYCsxSZ0gC9Rm4dddZ3VaA=="
-  "resolved" "https://registry.npmjs.org/dataverse-webapi/-/dataverse-webapi-2.0.4.tgz"
-  "version" "2.0.4"
+"dataverse-webapi@^2.0.5":
+  "integrity" "sha512-krZImpzDTvOOYnVWL1aumRlkcGIFDmcgdL+XEUQBV9ZQV1LGCNdfhGmewsHUJa3eHHR7ffzP9NgKQjpIXBpkSg=="
+  "resolved" "https://registry.npmjs.org/dataverse-webapi/-/dataverse-webapi-2.0.5.tgz"
+  "version" "2.0.5"
 
 "debug@^2.2.0", "debug@^2.3.3":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
@@ -2612,11 +2607,6 @@
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
   "resolved" "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
   "version" "1.1.1"
-
-"g@^2.0.1":
-  "integrity" "sha1-C1lj69DKcOO8jGdmk0oCGCHIuFc="
-  "resolved" "https://registry.npmjs.org/g/-/g-2.0.1.tgz"
-  "version" "2.0.1"
 
 "gauge@^4.0.3":
   "integrity" "sha512-f9m+BEN5jkg6a0fZjleidjN51VE1X+mPFQ2DJ0uv1V39oCLCbsGe6yjbBnp7eK7z/+GAon99a3nHuqbuuthyPg=="
@@ -4950,8 +4940,6 @@
     "use" "^3.1.0"
 
 "socks-proxy-agent@^6.1.1":
-  "integrity" "sha512-wWqJhjb32Q6GsrUqzuFkukxb/zzide5quXYcMVpIjxalDBBYy2nqKCFQ/9+Ie4dvOYSQdOk3hUlZSdzZOd3zMQ=="
-  "resolved" "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-6.2.0.tgz"
   "version" "6.2.0"
   dependencies:
     "agent-base" "^6.0.2"

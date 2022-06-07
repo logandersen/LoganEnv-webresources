@@ -3,7 +3,7 @@ import Account from './models/Account';
 
 export async function Confirm(formContext: Xrm.FormContext){
     const id = formContext.data.entity.getId();
-    const name = formContext.getAttribute(Account.Fields.Name).getValue();
+    const name = formContext.getAttribute<Xrm.Attributes.StringAttribute>(Account.Fields.Name).getValue();
     const confirmStrings: Xrm.Navigation.ConfirmStrings ={
         text : `${id}: ${name}`,
         title: "Confirm"
